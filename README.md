@@ -1,12 +1,25 @@
 # Easton Royal — VR Escape Room
 
-A first-person VR adventure game for **Oculus Quest** set in Victorian England.
-***REMOVED***
+<p align="center">
+  <img src="docs/screenshots/library-overview.png" alt="Library / Study" width="100%" />
+</p>
 
-The player takes on the role of a 19th-century detective who travels back in time
-to prevent his grandfather's death, only to wake up amnesiac and imprisoned in a
-dungeon. To escape, they must solve a series of interconnected puzzles spread across
-two environments and piece together the truth behind their captivity.
+A first-person VR escape room for **Oculus Quest** set in Victorian England. The player wakes up amnesiac and imprisoned in a dungeon, and must solve a chain of interconnected puzzles across two hand-crafted environments to uncover the truth behind their captivity.
+
+> Published on [SideQuest](https://sidequestvr.com/app/41224/easton-royal) · Built with Unity 2021 · C# · Oculus Quest
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="docs/screenshots/dungeon.png" alt="Dungeon" width="49%" />
+  <img src="docs/screenshots/match-lantern.png" alt="Match and lantern puzzle" width="49%" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/bookshelf.png" alt="Library bookshelf" width="49%" />
+  <img src="docs/screenshots/globe-puzzle.png" alt="Globe and corkboard puzzle" width="49%" />
+</p>
 
 ---
 
@@ -17,7 +30,7 @@ two environments and piece together the truth behind their captivity.
 **Perspective:** First-person, room-scale interaction
 
 Core mechanics:
-- Physical object interaction (pick up, place, rotate, combine)
+- Physical object interaction — pick up, place, rotate, and combine objects
 - Multi-step puzzle chains with environmental storytelling
 - Collectible notes and photographs that reveal the narrative
 - Progress tracking across two levels with save/load support
@@ -35,7 +48,7 @@ statue assembly, bottle chemistry, piano, combination chest, corkboard clues.
 ## Architecture
 
 The codebase follows a component-based architecture typical of Unity projects.
-Scripts are organised by level and responsibility:
+Scripts are organized by level and responsibility:
 
 ```
 EastonRoyal/
@@ -72,13 +85,13 @@ EastonRoyal/
 │   ├── StatuePuzzle            # Body-part rotation puzzle (4 active parts)
 │   ├── FinalKeyTrigger         # Final key trigger → game complete
 │   ├── Piano                   # Piano that plays a random note on interaction
-│   └── DrinkBoard              # Drinks corkboard — tracks pour colours, checks win condition
+│   └── DrinkBoard              # Drinks corkboard — tracks pour colors, checks win condition
 │
 └── Core/                       # Game-wide managers and utilities
     ├── GameManager             # HUD timer, level transitions, save-state restore on load
     ├── DataManager             # Player profiles, auto-save, main-menu UI population
     ├── SaveSystem              # JSON file I/O for player persistence
-    ├── AudioManager            # Centralised SFX, music, and voiced narration
+    ├── AudioManager            # Centralized SFX, music, and voiced narration
     ├── SerializableUserData    # Player save model (22 puzzle-completion flags)
     ├── PlayerProfileCard       # UI prefab card for the player-selection screen
     ├── UIManager               # Main menu slider and scene load
@@ -107,7 +120,7 @@ Key design decisions:
 This repository contains only the C# scripts. The full Unity project (scenes, assets,
 prefabs) is not included for size reasons.
 
-To run the project you will need:
+Requirements:
 - Unity 2021 LTS or later
 - Oculus Integration SDK
 - XR Plugin Management (OpenXR or Oculus XR Plugin)
