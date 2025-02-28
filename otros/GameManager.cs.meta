@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: c5c487e8bbd68fd4eb15733f5054faee
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - skybox_mat: {fileID: 2100000, guid: 379265bd4e8431f498aa70f92c8b108f, type: 2}
+  - coinsTexto: {instanceID: 0}
+  - troncosTexto: {instanceID: 0}
+  - setasTexto: {instanceID: 0}
+  - texto_setasVender: {instanceID: 0}
+  - texto_troncosVender: {instanceID: 0}
+  - menu: {instanceID: 0}
+  - hacha: {instanceID: 0}
+  - musicanormal: {instanceID: 0}
+  - musicajuego: {instanceID: 0}
+  - Hudjugar: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
