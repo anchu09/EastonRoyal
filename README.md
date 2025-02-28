@@ -63,7 +63,7 @@ Scripts y objetos interactivos dentro de la mazmorra:
 - **codigo.cs:** Puzle de combinación de códigos.
 - **palanca.cs, paredEncenderCerilla.cs:** Más mecánicas de interacción en la mazmorra (activar palancas, encender fuego en paredes).
 
-### 🔹 Biblioteca/ (equivalente al Despacho)
+### 🔹 Biblioteca
 Scripts de los puzles y mecánicas en el segundo nivel:
 - **baulhud.cs:** Implementa el candado numérico de un baúl y muestra un “HUD” de combinación.
 - **botellaprincipal.cs, botellas.cs:** Manejan la lógica de botellas que vierten líquido y activan pistas.
