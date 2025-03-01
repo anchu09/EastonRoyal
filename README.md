@@ -11,9 +11,8 @@ Un suceso misterioso te deja amnésico y prisionero en una mazmorra.
 A medida que exploras, descubres que no llegaste al pasado por casualidad y que alguien quiere impedir que conozcas la verdad.
 
 El juego mezcla la jugabilidad de escape rooms con una experiencia VR inmersiva, empleando mecánicas como:
-- Cerillas
-- Farolillos
-- Libros con códigos
+- Enigmas
+- Códigos
 - Rompecabezas mecánicos
 
 ---
